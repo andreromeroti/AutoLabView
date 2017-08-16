@@ -52,13 +52,6 @@
 			<Item Name="Autolab Complete Example (A).vi" Type="VI" URL="../Autolab Complete Example (A).vi"/>
 			<Item Name="[TN#5] FRA example (A).vi" Type="VI" URL="../[TN#5] FRA example (A).vi"/>
 			<Item Name="[TN#5] Measuring Complete Example(A).vi" Type="VI" URL="../[TN#5] Measuring Complete Example(A).vi"/>
-			<Item Name="Measuring Complete - AndreTec-2.vi" Type="VI" URL="../Measuring Complete - AndreTec-2.vi"/>
-			<Item Name="Measuring Complete - AndreTec-3.vi" Type="VI" URL="../Measuring Complete - AndreTec-3.vi"/>
-			<Item Name="Measuring Complete - AndreTec-4.vi" Type="VI" URL="../Measuring Complete - AndreTec-4.vi"/>
-			<Item Name="Measuring Complete - AndreTec-5.vi" Type="VI" URL="../Measuring Complete - AndreTec-5.vi"/>
-			<Item Name="auto_detect_arduino.vi" Type="VI" URL="../auto_detect_arduino.vi"/>
-			<Item Name="createTitles.vi" Type="VI" URL="../createTitles.vi"/>
-			<Item Name="isPathExist.vi" Type="VI" URL="../isPathExist.vi"/>
 		</Item>
 		<Item Name="Basic Examples" Type="Folder">
 			<Item Name="ADC Example (B).vi" Type="VI" URL="../ADC Example (B).vi"/>
@@ -70,6 +63,16 @@
 			<Item Name="Measured Data Example (B).vi" Type="VI" URL="../Measured Data Example (B).vi"/>
 			<Item Name="Procedure Parameters Example (B).vi" Type="VI" URL="../Procedure Parameters Example (B).vi"/>
 			<Item Name="Autolab Complete Example (B).vi" Type="VI" URL="../Autolab Complete Example (B).vi"/>
+		</Item>
+		<Item Name="AndreTec" Type="Folder">
+			<Item Name="auto_detect_arduino.vi" Type="VI" URL="../auto_detect_arduino.vi"/>
+			<Item Name="createTitles.vi" Type="VI" URL="../createTitles.vi"/>
+			<Item Name="isPathExist.vi" Type="VI" URL="../isPathExist.vi"/>
+			<Item Name="Measuring Complete - AndreTec.vi" Type="VI" URL="../Measuring Complete - AndreTec.vi"/>
+			<Item Name="Measuring Complete - AndreTec-2.vi" Type="VI" URL="../Measuring Complete - AndreTec-2.vi"/>
+			<Item Name="Measuring Complete - AndreTec-3.vi" Type="VI" URL="../Measuring Complete - AndreTec-3.vi"/>
+			<Item Name="Measuring Complete - AndreTec-4.vi" Type="VI" URL="../Measuring Complete - AndreTec-4.vi"/>
+			<Item Name="Measuring Complete - AndreTec-5.vi" Type="VI" URL="../Measuring Complete - AndreTec-5.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -135,9 +138,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="EcoChemie.Autolab.Sdk.dll" Type="Document" URL="../EcoChemie.Autolab.Sdk.dll"/>
-			<Item Name="EcoChemie.Autolab.Sdk.dll" Type="Document" URL="../../../../../../../Program Files/Metrohm Autolab/Autolab SDK 1.10/EcoChemie.Autolab.Sdk.dll"/>
-			<Item Name="EcoChemie100.dll" Type="Document" URL="../../../../../../../Program Files/Metrohm Autolab/Autolab SDK 1.10/EcoChemie100.dll"/>
-			<Item Name="Serial - Settings.ctl" Type="VI" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2014/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
+			<Item Name="Serial - Settings.ctl" Type="VI" URL="/Program Files/National Instruments/LabVIEW 2014/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
+			<Item Name="EcoChemie.Autolab.Sdk.dll" Type="Document" URL="../../../../../../Program Files/Metrohm Autolab/Autolab SDK 1.10/EcoChemie.Autolab.Sdk.dll"/>
+			<Item Name="EcoChemie100.dll" Type="Document" URL="../../../../../../Program Files/Metrohm Autolab/Autolab SDK 1.10/EcoChemie100.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="AutoLabNSensors" Type="EXE">
@@ -168,7 +171,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{33DA7511-6755-47E3-B673-C401B7D357BE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Advanced Examples/Measuring Complete - AndreTec-4.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AndreTec/Measuring Complete - AndreTec-4.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -208,7 +211,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{459A2443-6475-472D-A102-54218D2DAC26}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Advanced Examples/Measuring Complete - AndreTec-5.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AndreTec/Measuring Complete - AndreTec-5.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
